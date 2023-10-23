@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaDv Photo Cameras</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../imag/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="head">
+        <div class="logo">
+            <a href="#">JavaDv</a>
+            <img src="../imag/logo.png" alt="Logo" height="50">
+        </div>
+
+        <nav class="navbar">
+            <a href="../../index.html" class="nav-bar">Home</a>
+            <a href="../pages/aboutUs.html" class="nav-bar">About Us</a>
+            <a href="../pages/contact.html" class="nav-bar">Contact</a>
+            <a href="../pages/services.html" class="nav-bar">Services</a>
+            <a href="../pages/rating.html" class="nav-bar">Rating</a>
+            <a href="../pages/hire.html" class="nav-bar">Hire</a>
+        </nav>
+    </header>
+
+    <main class="content">
+
+        <h1 class="JavaDv_title">JavaDv Photo Cameras</h1>
+
+        <h2 class="JavaDv_Home">Hire</h2>
+
+        <section class="JavaDv_Hire_Home">
+
+            <h3 class="JavaDv_Hire_Home_title">Fill out the form so we can attend your event</h3>
+
+            <div class="JavaDv_Hire">
+
+                <form class="formu" action="../pages/show_data.html">
+
+                    <fieldset>
+                        <label class="label" for="full_name">First Name and Last Name</label>
+                        <input class="label" id="full_name" type="text" name="first_last" required>
+
+                        <label class="label" for="phone_number">Phone Number</label>
+                        <input class="label" id="phone_number" type="tel" pattern="[0-9]{9}" name="phone" required>
+
+                        <label class="label" for="choose_service">Choose Service</label>
+                        <select class="label" id="choose_service" name="service" required>
+                            <option value="" disabled selected>Select a Service</option>
+                            <option value="Camera and Lens Repair">Camera and Lens Repair</option>
+                            <option value="Cleaning and Maintenance">Cleaning and Maintenance</option>
+                            <option value="Weddings and Ceremonies">Weddings and Ceremonies</option>
+                            <option value="Corporate Events">Corporate Events</option>
+                            <option value="DSLR Cameras">DSLR Cameras</option>
+                            <option value="Mirrorless Cameras">Mirrorless Cameras</option>
+                        </select>
+
+                        <label class="label" for="choose_date">Choose Date</label>
+                        <input class="label" id="choose_date" type="date" name="date" required>
+
+                        <label class="label">Payment Options</label>
+                        <div class="radio">
+                            <input type="radio" id="cash" name="payment" value="cash">
+                            <label for="cash">Cash</label><br>
+                            <input type="radio" id="credit-card" name="payment" value="credit-card">
+                            <label for="credit-card">Credit Card</label><br>
+                            <input type="radio" id="debit-card" name="payment" value="debit-card">
+                            <label for="debit-card">Debit Card</label><br>
+                        </div>
+
+                        <fieldset class="commit">
+                            <label for="messenger">Messenger (Location and Time)</label>
+                            <textarea name="messenger" id="messenger" cols="40" rows="7"></textarea>
+                        </fieldset>
+
+                        <fieldset class="accept">
+                            <input type="checkbox" id="terms" name="terms" value="Ok">
+                            <label for="terms">I accept terms and conditions</label>
+                            <input type="submit">
+                        </fieldset>
+                    </fieldset>
+
+                </form>
+
+                
+                <div class="map_hire">
+                    <h4 class="map_title">Our Location</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52902.0868900826!2d-118.21574884999998!3d34.034111199999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c6029c9a59e9%3A0xec9ea70c76393a94!2sBoyle%20Heights%2C%20Los%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sco!4v1697980694944!5m2!1ses-419!2sco" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+            </div>
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="redes_sociales">
+            <h5>Created By: Hoiver Valencia</h5>
+        </div>
+    </footer>
+
+</body>
+
+</html>
